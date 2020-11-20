@@ -23,6 +23,12 @@ class App extends React.Component {
     setTimeout(( ) =>  {this.setState({ isLoading :false})},3000 ); 
   }
 
+componentDidUpdate () {
+  console.log("compount is Updated.....");
+}
+
+
+
 handleshow = () => this.setState({ isShow : ! this.state.isShow });
 
 
