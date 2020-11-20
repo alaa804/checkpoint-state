@@ -20,6 +20,7 @@ class App extends React.Component {
     // setInterval method of the component life cycle
 
   componentDidMount () {
+      console.log("compount is Mounting......");
     setTimeout(( ) =>  {this.setState({ isLoading :false})},3000 ); 
   }
 
